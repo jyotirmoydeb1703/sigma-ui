@@ -1,0 +1,108 @@
+.hero {
+    max-width: 100%;
+    min-width: 400px;
+    height: auto;
+    background-color:  #00aba9 ;
+    background-size: cover;
+    margin: 0 auto;
+    
+}
+
+.hero-header h1 {
+    text-align: center;
+    padding: 30px 0px;
+    color: var(--clr-h1);
+}
+
+.hero-header em {
+   
+    color: var( --clr-tagLine);
+    opacity: 0.85;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: var(--clr-button);
+    overflow: auto;
+    position: sticky;
+    color: var(--clr-navText);
+}
+
+nav li {
+    color: var(--clr-navText);
+    padding: 5px 25px;
+    float: left;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--clr-navText);
+}
+
+nav li a:hover {
+    color: var(--clr-navShade);
+}
+
+.reg-Form {
+    
+    clear: both;
+    border: 1px solid #c5c5c5;
+    width: 40%;
+    height: auto;
+    padding: 2em;
+    align-items: center;
+    margin: auto;
+    margin-top:2em;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #c6c6c6;
+
+}
+.reg-Form input {
+    width: 100%;
+    clear: both;
+}
+
+.reg-Form h3{
+    color: var(--clr-button);
+    width: 50%;
+    padding: 5px;
+    opacity:0.6;
+    border-radius: 10px;
+}
+
+.reg-Form a{
+    text-decoration: none;
+    color: var(--clr-dark)
+}
+.reg-Form a:hover{
+    color: #000;
+    font-weight:600;
+    color:var(--clr-button);
+}
+.not_Member{
+    margin-top: 20px;
+}
+.not_Member a {
+    text-decoration: none;
+    color : var(--clr-dark);
+   
+}
+.not_Member strong{
+    transition: font-weight 2s;
+}
+
+.not_Member strong:hover {
+    color :var(--clr-button);
+    font-size:1.1rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
