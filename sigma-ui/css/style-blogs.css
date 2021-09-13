@@ -1,0 +1,116 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vh;
+    min-width: 44%;
+}
+
+.blog-container-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 66%;
+    background-color: #f3f3f3;
+    margin: 1em;
+}
+
+.blog-container-left img {
+    width: 65%;
+    height:350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.blog-container-left p {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 65%;
+    text-align: justify;
+    padding: 1em;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 0.2em;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 0px #c5c5c5;
+    color: #f2f2f2;
+}
+
+.blog-container-left h3 {
+
+    padding: 1em;
+    text-decoration: underline;
+    font-family: monospace,Helvetica, sans-serif;
+}
+
+.other-container-right {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    background-color: #f3f3f3;
+    margin: 1em;
+}
+
+.recent-posts-heading div h3{
+    font-family: monospace;
+    padding:1em;
+}
+.recent-posts div{
+    background-color: #fff;
+    margin: 1em;
+    text-align: justify;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px #c5c5c5;
+}
+
+.recent-posts div p{
+    padding: 0.5em;
+}
+
+.blog-search{
+    padding: 1em;
+    margin-top: 2em;
+    font-family: monospace;
+}
+input[type="text"]{
+    border: 1px solid #c5c5c5;
+    border-radius: 8px;
+}
+
+.recent-posts div:nth-child(1){
+  background-color:#FBEEE6  ;
+}
+
+.recent-posts div:nth-child(2){
+    background-color:#D5F5E3   ;
+}
+
+.recent-posts div:nth-child(3){
+    background-color:#D6EAF8   ;
+}  
+
+.recent-posts div:nth-child(4){
+    background-color:#F6DDCC  ;
+}
+
+ul {
+    list-style-type:none;
+}
+
+.blog-categories {
+    background-color: #fff;
+    margin-top: 1rem;
+    margin: 1em;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow: 0px 4px 4px 0px #c5c5c5; 
+}
+
+.blog-categories  li {
+    padding: 0.5em;
+}
+
+.blog-categories h3 {
+    font-family: monospace;
+    margin: 1em;
+}

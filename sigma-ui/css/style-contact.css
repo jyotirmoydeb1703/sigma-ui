@@ -1,0 +1,13 @@
+.contact-form{
+    clear: both;
+    border: 1px solid #c5c5c5;
+    width: 65%;
+    height: auto;
+    padding: 2em;
+    align-items: center;
+    margin: auto;
+    margin-top:4em;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #c6c6c6; 
+    margin-bottom: 50px;
+}

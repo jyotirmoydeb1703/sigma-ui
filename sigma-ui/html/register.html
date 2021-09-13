@@ -5,25 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devine Styles - 001</title>
+    <title>Devine Styles - Register</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"
         crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style-reset.css">
-    <link rel="stylesheet" href="../css/style-login.css">
+    <link rel="stylesheet" href="../css/style-register.css">
     <script src="../js/navBar.js"></script>
-
-    <style>
-        footer 
-        {
-            position: relative;
-            top: 200px; 
-            padding: 5em;
-            background-color :var(--clr-button);
-        }
-    </style>
 </head>
 
 <body>
@@ -42,30 +32,32 @@
                 <li class="navstyle"><a href="../html/contact.html">Contact</a></li>
                 <li class="register_btn"><a href="../html/register.html">Register</a></li>
                 <li class="login_btn"><a href="../html/login.html">login</a></li>
-               
             </ul>
         </nav>
     </div>
-
-    <div id="reg_Form" class="reg-Form">
+    <div id="register_Form" class="register-form">
         <center>
-            <h3>LOGIN HERE</h3>
+            <h3>Register/ Sign up</h3>
         </center>
-        <form action="" id="logIn_form" class="logIn-form">
-            <label for="">User Name</label>
-            <input type="text" id="f_name" name="fName" placeholder="john@sigmacorp.com" required><br><br>
+        <form action="" id="register_form" class="register-form">
+            <label for="contact-Name">Ener Your Name</label>
+            <input type="text" id="contact_name" name="contact-Name" placeholder="John Doe" required><br><br>
 
-            <label for="">Password</label>
-            <input type="password" id="pass_word" name="pWord" placeholder="Enter Password" required>
+            <label for="contact-email">Enter Email</label>
+            <input type="text" id="contact_email" name="contact-email" placeholder="john@sigmacorp.com"
+                required><br><br>
 
-            <input type="submit" value="Submit" class="submitBtn">
+            <label for="password">Enter Password</label>
+            <input type="password" name="" id="">
+
+            <label for="password">Confirm Password</label>
+            <input type="password" name="" id="">
+
+            <input type="submit" value="Register" class="submitBtn">
         </form>
-        <br><br><a href="">forgot password ?</a>
     </div>
-    <div class="not_Member">
-        <a href="../html/register.html">Not a member yet! <strong> &nbsp Register Here </strong></a>
-    </div>
-    <footer id="footer_display" class="footer-display">
+        <a class="have-account" href="../html/login.html">Already have an account ?</a>
+    <footer>
         <ul class="footer-list">
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
@@ -74,7 +66,4 @@
             <li><a href="">Blogs</a></li>
         </ul>
     </footer>
-
 </body>
-
-</html>

@@ -1,0 +1,98 @@
+#aboutContainerMain{
+    padding: 40px;
+}
+
+/* USING FLOAT METHOD */
+.float-container {
+    border: none;
+    padding: 20px;
+    
+}
+
+.float-container p{
+   text-align: left;
+   line-height: 2em; 
+   padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: none;
+}  
+
+.float-child img{
+    box-shadow: 0px 2px 2px 0px #c5c5c5;
+    padding: 40px;
+}
+.float-container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* USING FLEXBOX METHOD */
+.flex-container{
+    display: flex;
+    clear:both;  
+}
+
+
+.flex-child {
+    flex: 1;
+    border: none;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+.flex-child p{
+    text-align: left;
+    line-height: 2em;
+    padding: 20px;
+}
+
+.flex-child img {
+    box-shadow: 0px 2px 2px 0px #c5c5c5;
+    padding: 40px;
+}
+
+
+/* USING CSS GRID */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.grid-child p{
+    text-align: left;
+    line-height: 2em;
+    padding: 20px;
+}
+
+.grid-child img{
+    box-shadow: 0px 2px 2px 0px #c5c5c5;
+    padding: 40px;
+}
+section{
+    margin-top: 40px;
+}
+
+.float-child img, .flex-child img, .grid-child img {
+    
+    box-shadow: 2px 5px 5px 0px #c5c5c5;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {box-shadow: 2px 5px 5px 0px #c5c5c5;}
+    25%  {box-shadow: 2px 5px 5px 0px #f5f5f5;}
+    50%  {box-shadow: 2px 5px 5px 0px #c8c8c8;}
+    100% {box-shadow: 2px 5px 5px 0px #0c1e31;}
+    50%  {box-shadow: 2px 5px 5px 0px #c8c8c8;}
+    25%  {box-shadow: 2px 5px 5px 0px #f5f5f5;}
+    0%   {box-shadow: 2px 5px 5px 0px #c5c5c5;}
+  }

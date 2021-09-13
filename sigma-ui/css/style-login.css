@@ -1,50 +1,3 @@
-.hero {
-    max-width: 100%;
-    min-width: 400px;
-    height: auto;
-    background-color:  #00aba9 ;
-    background-size: cover;
-    margin: 0 auto;
-    
-}
-
-.hero-header h1 {
-    text-align: center;
-    padding: 30px 0px;
-    color: var(--clr-h1);
-}
-
-.hero-header em {
-   
-    color: var( --clr-tagLine);
-    opacity: 0.85;
-    font-weight: 700;
-    padding-bottom: 1em;
-}
-
-nav ul {
-    list-style-type: none;
-    background-color: var(--clr-button);
-    overflow: auto;
-    position: sticky;
-    color: var(--clr-navText);
-}
-
-nav li {
-    color: var(--clr-navText);
-    padding: 5px 25px;
-    float: left;
-}
-
-nav li a {
-    text-decoration: none;
-    color: var(--clr-navText);
-}
-
-nav li a:hover {
-    color: var(--clr-navShade);
-}
-
 .reg-Form {
     
     clear: both;
@@ -57,6 +10,7 @@ nav li a:hover {
     margin-top:2em;
     border-radius: 10px;
     box-shadow: 0px 4px 4px 0px #c6c6c6;
+    
 
 }
 .reg-Form input {
@@ -83,6 +37,7 @@ nav li a:hover {
 }
 .not_Member{
     margin-top: 20px;
+    margin-bottom:50px;
 }
 .not_Member a {
     text-decoration: none;
@@ -98,6 +53,8 @@ nav li a:hover {
     font-size:1.1rem;
     font-weight: 600;
 }
+
+
 
 
 

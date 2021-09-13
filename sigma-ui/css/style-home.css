@@ -1,0 +1,47 @@
+.container-home-main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.container-home-main section img {
+    position: relative;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.container-home-main section p {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: justify;
+    width: 90%;
+    background-color: #f1f1f1;
+    padding: 1em;
+}
+
+.centered-bar {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: #fff;
+    padding: 1em;
+    box-shadow: 0px 2px 2px 0px #585757;
+    font-family: monospace;
+    letter-spacing: 0.2em;
+    border-radius: 2px;
+    
+}
+
+.centered-bar:hover {
+    background-color: rgb(119, 79, 4);
+    cursor: pointer;
+}
+
+

@@ -86,6 +86,35 @@ form label {
     float : left;
 }
 
+form textarea {
+    width: 100%;
+}
+
+nav li {
+    color: var(--clr-navText);
+    padding: 12px 25px;
+    float: left;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--clr-navText);
+}
+
+nav li a:hover {
+    color: var(--clr-navShade);
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: var(--clr-button);
+    overflow: auto;
+    position: sticky;
+    position:-webkit-sticky;
+    top: 0;
+    color: var(--clr-navText);
+}
+
 input[type=button], input[type=submit], input[type=reset] {
     background-color:var(--clr-button);
     border: none;
@@ -142,3 +171,75 @@ input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
 input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
 input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
+/* HERO HEADER  */
+
+.hero {
+    max-width: 100%;
+    min-width: 400px;
+    height: auto;
+    background-color:  #00aba9 ;
+    background-size: cover;
+    margin: 0 auto;
+    
+}
+
+.hero-header h1 {
+    text-align: center;
+    padding: 30px 0px;
+    color: var(--clr-h1);
+}
+
+.hero-header em {
+   
+    color: var( --clr-tagLine);
+    opacity: 0.85;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+/* END OF HERO HEADER */
+
+/* FOOTER START */
+footer {
+    
+    padding: 5em;
+    background-color :var(--clr-button);
+    
+}
+
+footer ul{
+    margin: auto;
+}
+footer li {
+    float: left;
+    padding: 0px 30px;
+    display: block;   
+}
+
+footer li a{
+    color : white;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+/* FOOTER ENDS */
+
+/* HAVE ACCOUNT */
+.have-account {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+/* LOGIN */
+.login_btn {
+    float: right;
+    background-color: #3498DB;
+    
+    
+}
+
+/* SIGNUP/REGISTER */
+.register_btn {
+    float: right;
+    background-color: #E74C3C  ;
+}

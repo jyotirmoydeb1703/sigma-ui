@@ -12,20 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style-reset.css">
-    <link rel="stylesheet" href="../css/style-login.css">
+    <link rel="stylesheet" href="../css/style-contact.css">
     <script src="../js/navBar.js"></script>
-
-    <style>
-        footer 
-        {
-            position: relative;
-            top: 200px; 
-            padding: 5em;
-            background-color :var(--clr-button);
-        }
-    </style>
 </head>
-
 <body>
     <div class="hero">
         <header class="hero-header">
@@ -42,30 +31,31 @@
                 <li class="navstyle"><a href="../html/contact.html">Contact</a></li>
                 <li class="register_btn"><a href="../html/register.html">Register</a></li>
                 <li class="login_btn"><a href="../html/login.html">login</a></li>
-               
             </ul>
         </nav>
     </div>
-
-    <div id="reg_Form" class="reg-Form">
+    <div id="contact_Form" class="contact-form">
         <center>
-            <h3>LOGIN HERE</h3>
+            <h3>CONTACT US</h3>
         </center>
         <form action="" id="logIn_form" class="logIn-form">
-            <label for="">User Name</label>
-            <input type="text" id="f_name" name="fName" placeholder="john@sigmacorp.com" required><br><br>
+            <label for="contact-Name">Ener Your Name</label>
+            <input type="text" id="contact_name" name="contact-Name" placeholder="John Doe" required><br><br>
 
-            <label for="">Password</label>
-            <input type="password" id="pass_word" name="pWord" placeholder="Enter Password" required>
-
+            <label for="contact-email">Enter Email</label>
+            <input type="text" id="contact_email" name="contact-email" placeholder="john@sigmacorp.com" required><br><br>
+             
+            <label for="contact-phone">Enter Phone Number</label>
+            <input type="text" id="contact_phone" name="contact-phone" placeholder="814-999-7171" required><br><br>
+  
+            <label for="contact-message">Enter Message</label>
+            <textarea name="contact-message" id="contact_message" class="contact-message" cols="100" rows="10"></textarea><br><br>  
+            
             <input type="submit" value="Submit" class="submitBtn">
         </form>
-        <br><br><a href="">forgot password ?</a>
+        
     </div>
-    <div class="not_Member">
-        <a href="../html/register.html">Not a member yet! <strong> &nbsp Register Here </strong></a>
-    </div>
-    <footer id="footer_display" class="footer-display">
+    <footer>
         <ul class="footer-list">
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
@@ -74,7 +64,4 @@
             <li><a href="">Blogs</a></li>
         </ul>
     </footer>
-
 </body>
-
-</html>
